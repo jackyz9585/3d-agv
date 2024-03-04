@@ -1,0 +1,30 @@
+{
+  "view": {
+    "host": "192.168.1.127",
+    "port": "22",
+    "username": "root",
+    "password": "123456",
+    "targetDir": "/home/nginx/html/3d-test/view"
+  },
+  "test": {
+    "host": "192.168.1.127",
+    "port": "22",
+    "username": "root",
+    "password": "123456",
+    "targetDir": "/home/nginx/html/3d-test/test"
+  },
+  "wmstest": {
+    "host": "192.168.1.127",
+    "port": "22",
+    "username": "root",
+    "password": "123456",
+    "targetDir": "/home/nginx/html/3d-test/13demo"
+  },
+  "ldtest": {
+    "host": "192.168.1.127",
+    "port": "22",
+    "username": "root",
+    "password": "123456",
+    "targetDir": "/home/nginx/html/3d-test/ld"
+  }
+}

@@ -1,0 +1,66 @@
+.el-dialog {
+  background: transparent;
+  .el-dialog__title,
+  .el-form-item__label,
+  .el-dialog__close,
+  .el-dialog__body {
+    color: #fff;
+  }
+  .el-dialog__header {
+    padding: 20px;
+    background: rgb(45, 137, 254);
+  }
+  .el-dialog__headerbtn {
+    top: 24px;
+  }
+  .el-dialog__body {
+    background: #15233cc3;
+  }
+}
+.el-button--default,
+.el-button--default:hover,
+.el-button--default:focus {
+  border: none;
+  background: transparent;
+  color: #fff;
+}
+.el-button--primary {
+  background: rgb(45, 137, 254);
+  border-color: rgb(45, 137, 254);
+}
+.el-form-item.is-error .el-input__inner,
+.el-form-item.is-required:not(.is-no-asterisk)
+  .el-form-item__label-wrap
+  > .el-form-item__label:before,
+.el-form-item.is-required:not(.is-no-asterisk) > .el-form-item__label:before,
+.el-form-item__error {
+  color: #ffb1cc;
+}
+
+.el-select-dropdown__list {
+  background-color: #0d2a68;
+  span {
+    color: #fff;
+  }
+}
+
+.el-select {
+  .el-input__inner {
+    background-color: #0d2a68;
+    border-color: #1f9bd3;
+    color: #fff;
+  }
+  .el-select__caret {
+    color: #1f9bd3;
+  }
+}
+.el-select-dropdown__item.hover,
+.el-select-dropdown__item:hover {
+  background-color: #34c3ff;
+}
+.el-select-dropdown {
+  border-color: #1f9bd3;
+}
+.el-popper[x-placement^="bottom"] .popper__arrow::after {
+  border-bottom-color: #1f9bd3;
+}
